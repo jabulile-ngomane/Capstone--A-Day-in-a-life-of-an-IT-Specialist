@@ -17,6 +17,16 @@ net localgroup supportteam intern2 /add
 net user intern2
 <img width="620" height="421" alt="image" src="https://github.com/user-attachments/assets/a8d8e590-7a88-4e5a-b21d-664f5429fdfb" />
 
+•	Created local user account:
+net user IT-Admin LadLab@78 /add
+•	Created security group:
+net localgroup supportteam /add
+•	Added user to group:
+net localgroup supportteam IT-Admin /add
+•	Verified user configuration:
+net user IT-Admin
+Changed account type to Administrator
+
  <img width="756" height="399" alt="image" src="https://github.com/user-attachments/assets/9bf92185-04e9-4dbd-b345-38830bf9e170" />
 
  
